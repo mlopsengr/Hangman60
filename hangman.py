@@ -72,9 +72,11 @@ class Hangman:
         # TODO 3: Check if the letter is in the word. TIP: You can use the lower() method to convert the letter to lowercase
         self.letter = letter.lower()
         if self.letter in self.word:
-            for i in range(len(self.word)):
-                if self.letter == self.word[i]:
-                    self.word_guessed[i] = self.letter
+         for i in (idx for idx , i in enumerate(self.word) if i == self.letter):
+                self.word_guessed[i] = self.letter
+                    # catering for the case where the letter is repeated ??
+                self.word_guessed[i] = self.letter
+                self.num_letters -= 1
         else:
             self.num_lives -= 1
 
