@@ -117,7 +117,7 @@ def play_game(word_list):
         game.ask_letter()
         print(game.word_guessed)
     if game.num_lives > 0:
-        print("Congratulations, you won!") # winning message
+        print("Congratulations, you won!") # message on winning
     else:
         print("You ran out of lives, The word was:", game.word) # message if the player lost
         
