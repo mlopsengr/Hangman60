@@ -119,7 +119,7 @@ def play_game(word_list):
     if game.num_lives > 0:
         print("Congratulations, you won!") # winning message
     else:
-        print("You ran out of lives, The word was:", game.word) # losing message
+        print("You ran out of lives, The word was:", game.word) # message if the player lost
         
     # TODO 2: To test this task, upon initialization, two messages should be printed 
     # TODO 3: To test this task, you call the ask_letter method and check if the letter is in the word
