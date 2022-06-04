@@ -131,6 +131,6 @@ def play_game(word_list):
     pass
 
 if __name__ == '__main__':
-    word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon'] #words posible
+    word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon'] # words possible to guess
     play_game(word_list)
 # %%
