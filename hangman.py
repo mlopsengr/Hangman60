@@ -74,7 +74,7 @@ class Hangman:
         if self.letter in self.word:
          for i in (idx for idx , i in enumerate(self.word) if i == self.letter):
                 self.word_guessed[i] = self.letter
-                # catering for the case where the letter is repeated ?
+                # catering for the case where the letter is repeated 
                 self.word_guessed[i] = self.letter
                 self.num_letters -= 1
         else:
