@@ -134,3 +134,5 @@ if __name__ == '__main__':
     word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon'] # a comment
     play_game(word_list)
 # %%
+
+# ensure all works, need to send link to aicore guy for review
