@@ -135,4 +135,4 @@ if __name__ == '__main__':
     play_game(word_list)
 # %%
 
-# ensure all works, need to send link to aicore instructor for review
+# ensure all works, need to send link to aicore instructor
