@@ -135,7 +135,7 @@ if __name__ == '__main__':
     play_game(word_list)
 # %%
 
-# ensure all works for scoring and tick tasks con portal, need to send link to aicore instructor for review (Bola) by monday
+# ensure all works for scoring and tick tasks con portal, need to send link to aicore instructor for review (Bola) by monday - done
 
 # retry github desktop for pushing
 ##
